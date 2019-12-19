@@ -54,7 +54,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 	private TableColumn<Seller, Seller> tableColumnEDIT;
 
 	@FXML
-	TableColumn<Seller, Seller> tableColumnREMOVE;
+	private TableColumn<Seller, Seller> tableColumnREMOVE;
 
 	@FXML
 	private Button btNew;
